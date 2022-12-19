@@ -1,6 +1,9 @@
 """
-This Binary search tree implementation is an extention of BSTImplementation1 and demonstrates below points:
-    * use of return to evaluate the stack frame expression, you can refer to. Remove or add return statement to see the effects of the same
+This Binary search tree implementation is an extension of BSTImplementation1 and demonstrates below points:
+    * use of return to evaluate the stack-frame expression, when we use return it will find the program will traverse to
+    highest or lowest number and return the value and if we do not use return keyword it cannot return any value.
+
+    This can be experienced with below functions
         * getMinValueFromBST function
         * inOrderTraversal function
     * This implementation includes two new methods
