@@ -11,3 +11,7 @@ def productSum(li, depth):
 
 arr = [1, 2, [2,3], 6, [[2,3], 1], 7]
 print(productSum(arr, 1))
+
+# Time complexity is O(n)
+# Space complexity is the maximum stack occupied which is 3
+# so space complexity is O(d)
